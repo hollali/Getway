@@ -80,7 +80,8 @@ Additional Notes
     The CSS file (style.css) is included in the project structure but is currently not utilized. It can be used for additional styling in the future.
 Credits
 
-This registration form script was created by [Your Name].
+This registration form script was created by Hollali Kelvin.
+
 License
 
 This project is licensed under the MIT License.
