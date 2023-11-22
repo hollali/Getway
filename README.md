@@ -42,6 +42,42 @@ Additional Notes
     The search functionality in the navigation bar is currently non-functional and can be implemented in the future.
     Ensure that the MySQL server is running and configured correctly for database interactions.
 
+Ghana Passport Admin Login
+Overview
+
+This PHP script implements a simple admin login page for the Ghana Passport system. The admin credentials are hardcoded for demonstration purposes, and access is granted upon successful authentication. Bootstrap is used for styling the form and creating a responsive layout.
+Features
+
+    Admin login form with username and password fields.
+    Hardcoded admin credentials for authentication.
+    Bootstrap styling for a modern and responsive design.
+
+Technologies Used
+
+    PHP: Backend scripting language for server-side processing.
+    Bootstrap 5: Frontend framework for styling and layout.
+    HTML: Markup language for structuring the content of the login form.
+    CSS: Styling to enhance the visual presentation.
+
+Project Structure
+
+    login.php: Main HTML file containing the admin login form and interface.
+    css/style.css: CSS file for custom styling (not currently used).
+    images/: Directory for storing images (not included in the provided script).
+
+Usage
+
+    Place all files in a web server directory.
+    Access the admin login page by navigating to the web server URL.
+    Enter the hardcoded admin credentials (username: "Admin", password: "0000").
+    Click the "LOGIN" button to authenticate.
+    Upon successful authentication, access is granted, and the user is redirected to the "operation.php" page.
+    If authentication fails, an alert is displayed, and the user remains on the login page.
+
+Additional Notes
+
+    This script uses hardcoded admin credentials for simplicity. In a real-world scenario, credentials would be stored securely and retrieved from a database.
+    The CSS file (style.css) is included in the project structure but is currently not utilized. It can be used for additional styling in the future.
 Credits
 
 This registration form script was created by [Your Name].
